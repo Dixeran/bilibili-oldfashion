@@ -25,3 +25,14 @@
 
 ![宽屏模式-修改后](https://s1.ax1x.com/2020/03/25/8x9z80.png)
 
+## 使用方法
+
+1. 安装 Stylus 插件
+
+2. 选择 Stylus -> 管理样式 -> 备份 -> Import -> 导入所有样式
+
+3. 下载并导入 Release 中的备份文件（json 格式）到 Stylus
+
+   或者：从 https://userstyles.org/styles/181520/bilibili-new-player-refresh 安装
+
+导入不会清空已有样式。
