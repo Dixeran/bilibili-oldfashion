@@ -1,0 +1,12 @@
+{
+  "name": "bilibili-oldfashion",
+  "version": "0.1.0",
+  "description": "A custom bilibili player style",
+  "main": "index.scss",
+  "scripts": {
+    "build": "sass index.scss dist/index.css"
+  },
+  "author": "dixeran",
+  "license": "WTFPL",
+  "devDependencies": {}
+}

@@ -1,0 +1,87 @@
+div.bilibili-player-video-progress-shadow.bui.bui-slider {
+  /*隐藏小进度条*/
+  display: none;
+}
+
+#bofqi {
+  margin-bottom: 54px;
+
+  #bilibiliPlayer:not(.mode-fullscreen):not(.mode-webfullscreen) {
+    .bilibili-player-area {
+      // 显示溢出部分
+      overflow: visible;
+    }
+    .bilibili-player-video-wrap {
+      // 显示溢出部分
+      overflow: visible;
+    }
+
+    .bilibili-player-video-control-wrap {
+      // 控制条
+      background-color: white;
+      transform: translateY(calc(44px + 4px));
+
+      .bilibili-player-video-control-mask {
+        /*隐藏半透明底色*/
+        display: none;
+      }
+
+      .bilibili-player-video-control-top {
+        opacity: 1 !important;
+      }
+
+      .bilibili-player-video-control-bottom {
+        opacity: 1;
+
+        .bilibili-player-video-time * {
+          color: black;
+        }
+
+        .bilibili-player-video-btn * {
+          color: black;
+        }
+
+        .bilibili-player-video-btn-setting-panel, // 设置
+        .bui-select.bui-select-quality-menu .bui-select-list, // 清晰度
+        .bilibili-player-video-volumebar-wrp, // 音量
+        .pbp-panel-content {
+          // 弹出面板底色
+          background-color: #ffffffe6 !important;
+          backdrop-filter: blur(5px);
+        }
+      }
+
+      .bp-svgicon svg {
+        /*图标底色*/
+        stroke: #333;
+        fill: #ececec;
+      }
+
+      .bui-track.bui-track-video-progress {
+        height: 4px;
+      }
+
+      .bui-slider {
+        .bui-thumb .bui-thumb-dot-special {
+          transform: scale(1);
+          opacity: 1;
+        }
+
+        .bui-track.bui-track-video-progress .bui-bar-wrap {
+          background-color: #b0bec580;
+        }
+
+        .bui-track.bui-track-video-progress .bui-bar-wrap > .bui-bar-buffer {
+          background-color: #78909cbf;
+        }
+      }
+    }
+
+    .bilibili-player-video-bottom-area {
+      // 弹幕条
+      transform: translateY(calc(44px + 4px));
+      box-shadow: 0 5px 8px -1px #e5e9ef;
+      z-index: 100;
+    }
+  }
+}
