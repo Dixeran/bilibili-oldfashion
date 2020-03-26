@@ -33,6 +33,6 @@
 
 3. 下载并导入 Release 中的备份文件（json 格式）到 Stylus
 
-   或者：从 https://userstyles.org/styles/181520/bilibili-new-player-refresh 安装
+   或者：从 https://userstyles.org/styles/181520/bilibili 安装
 
 导入不会清空已有样式。
